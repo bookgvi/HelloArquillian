@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Semaphore/LoginQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/hello/Semaphore/LoginQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mSun2uGzv8U3HOHQf4ENsOMxtd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -34,13 +36,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/test/com/example/hello/EJB" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/com/example/hello" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34375" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.hello.Semaphore" />
       <recent name="com.example.hello.EJB" />
       <recent name="com.example.hello" />
     </key>
@@ -67,12 +70,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInBothBeans_secondBeanShouldHaveSecondBeanState">
-    <configuration name="GlassFish Managed: Client1Test" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: LoginQueueTest.trySemaphore">
+    <configuration name="GlassFish Managed: LoginQueueTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="HelloArquillian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.hello.EJB.*" />
+          <option name="PATTERN" value="com.example.hello.Semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,10 +84,32 @@
           <option name="containerStateName" value="GlassFish Managed" />
         </value>
       </option>
-      <option name="PACKAGE_NAME" value="com.example.hello.EJB" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.EJB.Client1Test" />
+      <option name="PACKAGE_NAME" value="com.example.hello.Semaphore" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.Semaphore.LoginQueueTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlassFish Managed: LoginQueueTest.trySemaphore" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="HelloArquillian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello.Semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="GlassFish Managed" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="com.example.hello.Semaphore" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.Semaphore.LoginQueueTest" />
+      <option name="METHOD_NAME" value="trySemaphore" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,28 +132,6 @@
       <option name="MAIN_CLASS_NAME" value="com.example.hello.EJB.StatelessEJBTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GlassFish Managed: StatelessEJBTest._canIGetClient1Class" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
-      <module name="HelloArquillian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.hello.EJB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="GlassFish Managed" />
-        </value>
-      </option>
-      <option name="PACKAGE_NAME" value="com.example.hello.EJB" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.EJB.StatelessEJBTest" />
-      <option name="METHOD_NAME" value="_canIGetClient1Class" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -311,17 +314,17 @@
       <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest" />
       <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInOneBean_secondBeanShouldHaveSameState" />
-      <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest._canIGetClient1Class" />
-      <item itemvalue="Arquillian JUnit.GlassFish Managed: Client1Test" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInBothBeans_secondBeanShouldHaveSecondBeanState" />
+      <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest" />
+      <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest.trySemaphore" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest.trySemaphore" />
+        <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInBothBeans_secondBeanShouldHaveSecondBeanState" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInOneBean_secondBeanShouldHaveSameState" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest" />
-        <item itemvalue="Arquillian JUnit.GlassFish Managed: Client1Test" />
-        <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest._canIGetClient1Class" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +338,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609499476328</updated>
-      <workItem from="1609499477504" duration="5136000" />
+      <workItem from="1609499477504" duration="7783000" />
     </task>
     <servers />
   </component>

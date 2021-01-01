@@ -9,7 +9,7 @@ public class LoginQueue {
     semaphore = new Semaphore(slots);
   }
 
-  public boolean trLogin() {
+  public boolean tryLogin() {
     return semaphore.tryAcquire();
   }
 
