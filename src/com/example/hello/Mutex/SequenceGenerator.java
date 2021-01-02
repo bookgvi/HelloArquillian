@@ -1,6 +1,6 @@
 package com.example.hello.Mutex;
 
-public class SequenceGenerator {
+public class SequenceGenerator implements SeqGen {
   private int sequence = 0;
 
   public int generate() {

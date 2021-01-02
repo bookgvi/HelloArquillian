@@ -22,7 +22,9 @@ public class SequenceGeneratorTest {
   @Deployment
   public static JavaArchive createDeployment() {
     return ShrinkWrap.create(JavaArchive.class)
+      .addClass(SeqGen.class)
       .addClass(SequenceGenerator.class)
+      .addClass(SynchronizedSequenceGenerator.class)
       .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
   }
 
@@ -32,11 +34,11 @@ public class SequenceGeneratorTest {
   @Test
   public void testMultiThreadSequenceFill() throws ExecutionException, InterruptedException {
     ExecutorService executorService = Executors.newFixedThreadPool(THREADS_COUNT);
-    Set<Integer> sequence = getSequence(new SequenceGenerator(), executorService);
+    Set<Integer> sequence = getSequence(new SynchronizedSequenceGenerator(), executorService);
     Assert.assertEquals(NUM, sequence.size());
   }
 
-  private Set<Integer> getSequence(SequenceGenerator sequenceGenerator, ExecutorService executorService) throws ExecutionException, InterruptedException {
+  private Set<Integer> getSequence(SeqGen sequenceGenerator, ExecutorService executorService) throws ExecutionException, InterruptedException {
     List<Future<Integer>> futures = new ArrayList<>();
     Set<Integer> sequence = new LinkedHashSet<>();
     for (int i = 0; i < NUM; i++) {
