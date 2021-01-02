@@ -28,8 +28,7 @@ public class LoginQueueTest {
     final int SLOTS = 10;
     ExecutorService executorService = Executors.newFixedThreadPool(SLOTS);
     LoginQueue loginQueue = new LoginQueue(SLOTS);
-    IntStream.range(0, SLOTS + 1).forEach(user -> executorService.execute(loginQueue::tryLogin)
-    );
+    IntStream.range(0, SLOTS + 1).forEach(user -> executorService.execute(loginQueue::tryLogin));
     executorService.shutdown();
 
     assertEquals(0, loginQueue.emptySlots());
