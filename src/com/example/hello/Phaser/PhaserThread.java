@@ -6,7 +6,7 @@ public class PhaserThread implements Runnable {
   private final Phaser phaser;
   private String threadName;
 
-  PhaserThread(Phaser phaser, String threadName) {
+  PhaserThread(String threadName, Phaser phaser) {
     this.phaser = phaser;
     this.threadName = threadName;
     phaser.register();

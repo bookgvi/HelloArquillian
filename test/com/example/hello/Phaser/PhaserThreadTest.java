@@ -41,8 +41,28 @@ public class PhaserThreadTest {
 
   @Test
   public void CheckWhetherThreadRegisterInPhaseOrNot() {
-    final int THREADS_COUNT = 10;
+    final int THREADS_COUNT_FOR_FIRST_PHASE = 5;
+    final int THREADS_COUNT_FOR_SECOND_PHASE = 3;
+    ExecutorService executorService = Executors.newCachedThreadPool();
     Phaser phaser = new Phaser(1);
+
     assertEquals(phases.BEGINING.getPhaseNum(), phaser.getPhase());
+
+    IntStream.range(0, THREADS_COUNT_FOR_FIRST_PHASE).forEach(index -> {
+      executorService.execute(new PhaserThread("thread-" + THREADS_COUNT_FOR_FIRST_PHASE + index, phaser));
+    });
+
+    phaser.arriveAndAwaitAdvance();
+    assertEquals(phases.FIRST.getPhaseNum(), phaser.getPhase());
+
+    IntStream.range(0, THREADS_COUNT_FOR_SECOND_PHASE).forEach(index -> {
+      executorService.execute(new PhaserThread("thread-" + THREADS_COUNT_FOR_SECOND_PHASE + index, phaser));
+    });
+
+    phaser.arriveAndAwaitAdvance();
+    assertEquals(phases.SECOND.getPhaseNum(), phaser.getPhase());
+
+    phaser.arriveAndDeregister();
+    executorService.shutdown();
   }
 }
