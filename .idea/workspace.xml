@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Arquillian JUnit Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -43,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.hello.Phaser" />
       <recent name="com.example.hello.Mutex" />
       <recent name="com.example.hello.Semaphore" />
       <recent name="com.example.hello.EJB" />
@@ -71,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill">
+  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: PhaserThreadTest">
     <configuration name="GlassFish Managed: LoginQueueTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="HelloArquillian" />
       <extension name="coverage">
@@ -116,6 +117,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GlassFish Managed: PhaserThreadTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="HelloArquillian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello.Phaser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="GlassFish Managed" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="com.example.hello.Phaser" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.Phaser.PhaserThreadTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="HelloArquillian" />
       <extension name="coverage">
@@ -154,28 +177,6 @@
       <option name="PACKAGE_NAME" value="com.example.hello.EJB" />
       <option name="MAIN_CLASS_NAME" value="com.example.hello.EJB.StatelessEJBTest" />
       <option name="METHOD_NAME" value="givenOneStatelessBean_whenStateIsSetInBothBeans_secondBeanShouldHaveSecondBeanState" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInOneBean_secondBeanShouldHaveSameState" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
-      <module name="HelloArquillian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.hello.EJB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="GlassFish Managed" />
-        </value>
-      </option>
-      <option name="PACKAGE_NAME" value="com.example.hello.EJB" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.EJB.StatelessEJBTest" />
-      <option name="METHOD_NAME" value="givenOneStatelessBean_whenStateIsSetInOneBean_secondBeanShouldHaveSameState" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -312,20 +313,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInOneBean_secondBeanShouldHaveSameState" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInBothBeans_secondBeanShouldHaveSecondBeanState" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest.trySemaphore" />
       <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
+      <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest.trySemaphore" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInBothBeans_secondBeanShouldHaveSecondBeanState" />
-        <item itemvalue="Arquillian JUnit.GlassFish Managed: StatelessEJBTest.givenOneStatelessBean_whenStateIsSetInOneBean_secondBeanShouldHaveSameState" />
       </list>
     </recent_temporary>
   </component>
