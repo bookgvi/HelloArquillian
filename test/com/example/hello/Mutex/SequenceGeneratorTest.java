@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.*;
 
-import static org.junit.Assert.*;
 
 @RunWith(Arquillian.class)
 public class SequenceGeneratorTest {
@@ -26,6 +25,7 @@ public class SequenceGeneratorTest {
       .addClass(SequenceGenerator.class)
       .addClass(SynchronizedSequenceGenerator.class)
       .addClass(ReentrantLockSequenceGenerator.class)
+      .addClass(SemaphoreSequencegenerator.class)
       .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
   }
 
@@ -35,7 +35,7 @@ public class SequenceGeneratorTest {
   public void testMultiThreadSequenceFill() throws ExecutionException, InterruptedException {
     final int THREADS_COUNT = 5;
     ExecutorService executorService = Executors.newFixedThreadPool(THREADS_COUNT);
-    Set<Integer> sequence = getSequence(new ReentrantLockSequenceGenerator(), executorService);
+    Set<Integer> sequence = getSequence(new SemaphoreSequencegenerator(), executorService);
     Assert.assertEquals(NUM, sequence.size());
   }
 

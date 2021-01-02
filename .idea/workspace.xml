@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/com/example/hello/Mutex/SequenceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/hello/Mutex/SequenceGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -340,7 +340,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609499476328</updated>
       <workItem from="1609499477504" duration="9072000" />
-      <workItem from="1609576444915" duration="2171000" />
+      <workItem from="1609576444915" duration="2704000" />
     </task>
     <servers />
   </component>
