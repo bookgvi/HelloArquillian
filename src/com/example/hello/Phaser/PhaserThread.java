@@ -14,6 +14,7 @@ public class PhaserThread implements Runnable {
 
   @Override
   public void run() {
+    System.out.printf("%s, registered in %s phase %n", threadName, phaser.getPhase());
     phaser.arriveAndAwaitAdvance();
     try {
       Thread.sleep(1000);
