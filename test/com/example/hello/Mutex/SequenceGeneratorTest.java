@@ -25,16 +25,17 @@ public class SequenceGeneratorTest {
       .addClass(SeqGen.class)
       .addClass(SequenceGenerator.class)
       .addClass(SynchronizedSequenceGenerator.class)
+      .addClass(ReentrantLockSequenceGenerator.class)
       .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
   }
 
   private final int NUM = 1000;
-  private final int THREADS_COUNT = 5;
 
   @Test
   public void testMultiThreadSequenceFill() throws ExecutionException, InterruptedException {
+    final int THREADS_COUNT = 5;
     ExecutorService executorService = Executors.newFixedThreadPool(THREADS_COUNT);
-    Set<Integer> sequence = getSequence(new SynchronizedSequenceGenerator(), executorService);
+    Set<Integer> sequence = getSequence(new ReentrantLockSequenceGenerator(), executorService);
     Assert.assertEquals(NUM, sequence.size());
   }
 
