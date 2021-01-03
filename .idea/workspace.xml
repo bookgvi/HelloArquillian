@@ -43,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.hello.ThreadLifeCycle" />
       <recent name="com.example.hello.Volatile" />
       <recent name="com.example.hello.Phaser" />
       <recent name="com.example.hello.Mutex" />
       <recent name="com.example.hello.Semaphore" />
-      <recent name="com.example.hello.EJB" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.hello.EJB" />
@@ -72,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: PreVolatileTest">
+  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: DummyThreadTest">
     <configuration name="APP" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.hello.Phaser.MainThread" />
       <module name="HelloArquillian" />
@@ -80,11 +80,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlassFish Managed: LoginQueueTest.trySemaphore" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="GlassFish Managed: DummyThreadTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="HelloArquillian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.hello.Semaphore.*" />
+          <option name="PATTERN" value="com.example.hello.ThreadLifeCycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,10 +93,10 @@
           <option name="containerStateName" value="GlassFish Managed" />
         </value>
       </option>
-      <option name="PACKAGE_NAME" value="com.example.hello.Semaphore" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.Semaphore.LoginQueueTest" />
-      <option name="METHOD_NAME" value="trySemaphore" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.hello.ThreadLifeCycle" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.ThreadLifeCycle.DummyThreadTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,20 +321,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.APP" />
-      <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest.trySemaphore" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest" />
-      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest.CheckWhetherThreadRegisterInPhaseOrNot" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest" />
+      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
+      <item itemvalue="Arquillian JUnit.GlassFish Managed: DummyThreadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Arquillian JUnit.GlassFish Managed: DummyThreadTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest.CheckWhetherThreadRegisterInPhaseOrNot" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
-        <item itemvalue="Arquillian JUnit.GlassFish Managed: LoginQueueTest.trySemaphore" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +350,7 @@
       <updated>1609499476328</updated>
       <workItem from="1609499477504" duration="9072000" />
       <workItem from="1609576444915" duration="2704000" />
+      <workItem from="1609660986870" duration="1847000" />
     </task>
     <servers />
   </component>
