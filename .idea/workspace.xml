@@ -43,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.hello.WeakReference" />
       <recent name="com.example.hello.ThreadLifeCycle" />
       <recent name="com.example.hello.Volatile" />
       <recent name="com.example.hello.Phaser" />
       <recent name="com.example.hello.Mutex" />
-      <recent name="com.example.hello.Semaphore" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.hello.EJB" />
@@ -72,9 +72,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: DummyThreadTest">
+  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: WeakReferenceForTestTest.ChekReferenceQueue_ForWeakRefernce">
     <configuration name="APP" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.Phaser.MainThread" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.WeakReference.WeakReferenceForTest" />
       <module name="HelloArquillian" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +168,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="GlassFish Managed: WeakReferenceForTestTest.ChekReferenceQueue_ForWeakRefernce" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="HelloArquillian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.hello.Mutex.*" />
+          <option name="PATTERN" value="com.example.hello.WeakReference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,9 +181,9 @@
           <option name="containerStateName" value="GlassFish Managed" />
         </value>
       </option>
-      <option name="PACKAGE_NAME" value="com.example.hello.Mutex" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.Mutex.SequenceGeneratorTest" />
-      <option name="METHOD_NAME" value="testMultiThreadSequenceFill" />
+      <option name="PACKAGE_NAME" value="com.example.hello.WeakReference" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.WeakReference.WeakReferenceForTestTest" />
+      <option name="METHOD_NAME" value="ChekReferenceQueue_ForWeakRefernce" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -321,20 +321,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.APP" />
-      <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest.CheckWhetherThreadRegisterInPhaseOrNot" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest" />
-      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: DummyThreadTest" />
+      <item itemvalue="Arquillian JUnit.GlassFish Managed: WeakReferenceForTestTest.ChekReferenceQueue_ForWeakRefernce" />
+      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Arquillian JUnit.GlassFish Managed: WeakReferenceForTestTest.ChekReferenceQueue_ForWeakRefernce" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: DummyThreadTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest.CheckWhetherThreadRegisterInPhaseOrNot" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PhaserThreadTest" />
-        <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
       </list>
     </recent_temporary>
   </component>
