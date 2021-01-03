@@ -25,7 +25,7 @@ public class WeakReferenceForTestTest {
   }
 
   @Test
-  public void ChekReferenceQueue_ForWeakRefernce() {
+  public void ChekReferenceQueue_ForWeakReference() {
     Reference ref;
     StringBuilder sb = new StringBuilder();
     ReferenceQueue<StringBuilder> queue = new ReferenceQueue<>();
