@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/com/example/hello/ScheduledThreadPool/SomeClassForScheduleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/hello/ScheduledThreadPool/SomeClassForScheduleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/example/hello/ForkJoin/ForkJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/hello/ForkJoin/ForkJoinTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -43,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.hello.ForkJoin" />
       <recent name="com.example.hello.ScheduledThreadPool" />
       <recent name="com.example.hello.ThreadPool" />
       <recent name="com.example.hello.WeakReference" />
       <recent name="com.example.hello.ThreadLifeCycle" />
-      <recent name="com.example.hello.Volatile" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.hello.EJB" />
@@ -72,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage">
+  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: ForkJoinTest.Sum_of_natural_quantities">
     <configuration name="APP" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.hello.ScheduledThreadPool.Mainthread" />
       <module name="HelloArquillian" />
@@ -80,11 +80,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlassFish Managed: DummyThreadTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="GlassFish Managed: ForkJoinTest.Sum_of_natural_quantities" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
       <module name="HelloArquillian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.hello.ThreadLifeCycle.*" />
+          <option name="PATTERN" value="com.example.hello.ForkJoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,10 +93,10 @@
           <option name="containerStateName" value="GlassFish Managed" />
         </value>
       </option>
-      <option name="PACKAGE_NAME" value="com.example.hello.ThreadLifeCycle" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.ThreadLifeCycle.DummyThreadTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.example.hello.ForkJoin" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.ForkJoin.ForkJoinTest" />
+      <option name="METHOD_NAME" value="Sum_of_natural_quantities" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,20 +321,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.APP" />
-      <item itemvalue="Arquillian JUnit.GlassFish Managed: DummyThreadTest" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: WeakReferenceForTestTest.ChekReferenceQueue_ForWeakRefernce" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest.callZZZ" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeCallableClassTest" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage" />
       <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
+      <item itemvalue="Arquillian JUnit.GlassFish Managed: ForkJoinTest.Sum_of_natural_quantities" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Arquillian JUnit.GlassFish Managed: ForkJoinTest.Sum_of_natural_quantities" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeCallableClassTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest.callZZZ" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: WeakReferenceForTestTest.ChekReferenceQueue_ForWeakRefernce" />
-        <item itemvalue="Arquillian JUnit.GlassFish Managed: DummyThreadTest" />
       </list>
     </recent_temporary>
   </component>
