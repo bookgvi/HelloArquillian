@@ -8,7 +8,8 @@ public class ForkJoin {
     final String msg = "This is the test message!!!";
     CustomVoidRecursiveTask customVoidRecursiveTask = new CustomVoidRecursiveTask(msg);
     CustomStringRecursiveTask customStringRecursiveTask = new CustomStringRecursiveTask(msg);
-    ForkJoinPool forkJoinPool = ForkJoinPool.commonPool();
+//    ForkJoinPool forkJoinPool = ForkJoinPool.commonPool();
+    ForkJoinPool forkJoinPool = new ForkJoinPool(6);
 
     forkJoinPool.invoke(customVoidRecursiveTask);
     String result = forkJoinPool.invoke(customStringRecursiveTask);
