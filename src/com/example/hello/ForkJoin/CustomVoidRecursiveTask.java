@@ -8,7 +8,6 @@ import java.util.logging.Logger;
 
 public class CustomVoidRecursiveTask extends RecursiveAction {
   private String workload;
-  private static final int THRESHOLD = 4;
   private Logger logger = Logger.getAnonymousLogger();
 
   public CustomVoidRecursiveTask(String workload) {
@@ -17,7 +16,7 @@ public class CustomVoidRecursiveTask extends RecursiveAction {
 
   @Override
   protected void compute() {
-    if (workload.length() > CustomVoidRecursiveTask.THRESHOLD) {
+    if (workload.length() > ForkJoin.THRESHOLD) {
       ForkJoinTask.invokeAll(splitToSubTasks());
     } else {
       proceed();
