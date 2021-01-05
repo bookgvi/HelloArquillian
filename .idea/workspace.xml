@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ScheduledThreadPool/Mainthread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/hello/ScheduledThreadPool/Mainthread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ScheduledThreadPool/SomeClassForSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/hello/ScheduledThreadPool/SomeClassForSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/example/hello/ScheduledThreadPool/SomeClassForScheduleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/hello/ScheduledThreadPool/SomeClassForScheduleTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.APP">
+  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage">
     <configuration name="APP" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.hello.ScheduledThreadPool.Mainthread" />
       <module name="HelloArquillian" />
@@ -354,7 +352,7 @@
       <workItem from="1609576444915" duration="2704000" />
       <workItem from="1609660986870" duration="1847000" />
       <workItem from="1609748940544" duration="5753000" />
-      <workItem from="1609840315992" duration="8455000" />
+      <workItem from="1609840315992" duration="8726000" />
     </task>
     <servers />
   </component>

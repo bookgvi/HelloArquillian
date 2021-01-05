@@ -30,12 +30,12 @@ public class SomeClassForScheduleTest {
     SomeClassForSchedule someClassForSchedule = new SomeClassForSchedule(countDownLatch);
 
     ScheduledFuture<?> scheduledFutures =
-      executorService.scheduleAtFixedRate(someClassForSchedule::getMessage, 300, 100, TimeUnit.MILLISECONDS);
+      executorService.schedule(someClassForSchedule::getMessage, 3000, TimeUnit.MILLISECONDS);
     countDownLatch.await(1000, TimeUnit.MILLISECONDS);
-    scheduledFutures.cancel(true);
 
     assertEquals(SomeClassForSchedule.msg, scheduledFutures.get());
 
+    scheduledFutures.cancel(true);
     executorService.shutdown();
   }
 }
