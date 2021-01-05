@@ -10,11 +10,11 @@ public class SomeClassForSchedule {
     this.countDownLatch = countDownLatch;
   }
   String getMessage() {
-    System.out.printf("Msg: %s%n", SomeClassForSchedule.msg);
     try {
+      countDownLatch.countDown();
       return SomeClassForSchedule.msg;
     } finally {
-      countDownLatch.countDown();
+      System.out.printf("Msg from thread: %s%n", SomeClassForSchedule.msg);
     }
   }
 }
