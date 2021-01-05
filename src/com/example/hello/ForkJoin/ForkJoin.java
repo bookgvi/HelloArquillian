@@ -12,7 +12,9 @@ public class ForkJoin {
     ForkJoinPool forkJoinPool = new ForkJoinPool(6);
 
     forkJoinPool.invoke(customVoidRecursiveTask);
-    String result = forkJoinPool.invoke(customStringRecursiveTask);
+//    String result = forkJoinPool.invoke(customStringRecursiveTask);
+    forkJoinPool.submit(customStringRecursiveTask);
+    String result = customStringRecursiveTask.join();
     System.out.printf("%s -> %s%n", msg, result);
 
     forkJoinPool.shutdown();
