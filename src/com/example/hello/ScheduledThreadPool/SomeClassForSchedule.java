@@ -10,6 +10,7 @@ public class SomeClassForSchedule {
     this.countDownLatch = countDownLatch;
   }
   String getMessage() {
+    System.out.printf("Msg: %s%n", SomeClassForSchedule.msg);
     try {
       return SomeClassForSchedule.msg;
     } finally {

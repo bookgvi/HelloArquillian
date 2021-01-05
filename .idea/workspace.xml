@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ScheduledThreadPool/SomeClassForSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/hello/ScheduledThreadPool/SomeClassForSchedule.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,11 +44,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.hello.ScheduledThreadPool" />
       <recent name="com.example.hello.ThreadPool" />
       <recent name="com.example.hello.WeakReference" />
       <recent name="com.example.hello.ThreadLifeCycle" />
       <recent name="com.example.hello.Volatile" />
-      <recent name="com.example.hello.Phaser" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.hello.EJB" />
@@ -72,9 +73,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: SomeCallableClassTest">
+  <component name="RunManager" selected="Application.APP">
     <configuration name="APP" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.WeakReference.WeakReferenceForTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.ScheduledThreadPool.Mainthread" />
       <module name="HelloArquillian" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,28 +96,6 @@
       </option>
       <option name="PACKAGE_NAME" value="com.example.hello.ThreadLifeCycle" />
       <option name="MAIN_CLASS_NAME" value="com.example.hello.ThreadLifeCycle.DummyThreadTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GlassFish Managed: PreVolatileTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
-      <module name="HelloArquillian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.hello.Volatile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="GlassFish Managed" />
-        </value>
-      </option>
-      <option name="PACKAGE_NAME" value="com.example.hello.Volatile" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.Volatile.PreVolatileTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -163,6 +142,28 @@
       <option name="MAIN_CLASS_NAME" value="com.example.hello.ThreadPool.SomeCallableClassTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlassFish Managed: SomeClassForScheduleTest.getMessage" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="HelloArquillian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello.ScheduledThreadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="GlassFish Managed" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="com.example.hello.ScheduledThreadPool" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.ScheduledThreadPool.SomeClassForScheduleTest" />
+      <option name="METHOD_NAME" value="getMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,20 +322,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.APP" />
-      <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: DummyThreadTest" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: WeakReferenceForTestTest.ChekReferenceQueue_ForWeakRefernce" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest.callZZZ" />
-      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeCallableClassTest" />
+      <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage" />
+      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeCallableClassTest" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest.callZZZ" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: WeakReferenceForTestTest.ChekReferenceQueue_ForWeakRefernce" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: DummyThreadTest" />
-        <item itemvalue="Arquillian JUnit.GlassFish Managed: PreVolatileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +353,7 @@
       <workItem from="1609576444915" duration="2704000" />
       <workItem from="1609660986870" duration="1847000" />
       <workItem from="1609748940544" duration="5753000" />
-      <workItem from="1609840315992" duration="3101000" />
+      <workItem from="1609840315992" duration="4818000" />
     </task>
     <servers />
   </component>
