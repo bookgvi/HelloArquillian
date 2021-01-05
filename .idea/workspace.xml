@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/WeakReference/WeakReferenceForTestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/WeakReference/WeakReferenceForTestTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,7 +352,7 @@
       <workItem from="1609576444915" duration="2704000" />
       <workItem from="1609660986870" duration="1847000" />
       <workItem from="1609748940544" duration="5753000" />
-      <workItem from="1609840315992" duration="1969000" />
+      <workItem from="1609840315992" duration="3101000" />
     </task>
     <servers />
   </component>
