@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ForkJoin/ForkJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/hello/ForkJoin/ForkJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ForkJoin/Summarization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/hello/ForkJoin/Summarization.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: SimpleStringClassTest.CompareStrings">
+  <component name="RunManager" selected="Application.APP">
     <configuration name="APP" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.hello.ForkJoin.ForkJoin" />
       <module name="HelloArquillian" />
@@ -359,7 +361,7 @@
       <workItem from="1610141532741" duration="1294000" />
       <workItem from="1610183446129" duration="27000" />
       <workItem from="1610227240196" duration="468000" />
-      <workItem from="1610440974470" duration="869000" />
+      <workItem from="1610440974470" duration="1918000" />
     </task>
     <servers />
   </component>
