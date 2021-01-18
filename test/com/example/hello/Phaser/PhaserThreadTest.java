@@ -25,7 +25,7 @@ public class PhaserThreadTest {
   }
 
   enum phases {
-    BEGINING(0),
+    BEGINNING(0),
     FIRST(1),
     SECOND(2);
 
@@ -46,7 +46,7 @@ public class PhaserThreadTest {
     ExecutorService executorService = Executors.newCachedThreadPool();
     Phaser phaser = new Phaser(1);
 
-    assertEquals(phases.BEGINING.getPhaseNum(), phaser.getPhase());
+    assertEquals(phases.BEGINNING.getPhaseNum(), phaser.getPhase());
 
     IntStream.range(0, THREADS_COUNT_FOR_FIRST_PHASE).forEach(index -> {
       executorService.execute(new PhaserThread("thread-" + THREADS_COUNT_FOR_FIRST_PHASE + index, phaser));
