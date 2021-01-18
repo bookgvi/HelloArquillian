@@ -2,71 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloArquillian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloArquillian.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/EJB/Client1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/EJB/Client2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/EJB/StatelessEJB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/ForkJoin/CustomStringRecursiveTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/ForkJoin/CustomVoidRecursiveTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/ForkJoin/ForkJoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/ForkJoin/Summarization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Greeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Mutex/ReentrantLockSequenceGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Mutex/SemaphoreSequencegenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Mutex/SeqGen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Mutex/SequenceGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Mutex/SynchronizedSequenceGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Phaser/MainThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Phaser/PhaserThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/ScheduledThreadPool/Mainthread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/ScheduledThreadPool/SomeClassForSchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Semaphore/LoginQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/String/SimpleStringClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/ThreadLifeCycle/DummyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/ThreadPool/SomeCallableClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/Volatile/PreVolatile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloArquillian/com/example/hello/WeakReference/WeakReferenceForTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/arquillian.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/EJB/Client1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/EJB/StatelessEJBTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/ForkJoin/ForkJoinTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/GreeterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/Mutex/SequenceGeneratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/Phaser/PhaserThreadTest$phases.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/Phaser/PhaserThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/ScheduledThreadPool/SomeClassForScheduleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/Semaphore/LoginQueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/String/SimpleStringClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/ThreadLifeCycle/DummyThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/ThreadPool/SomeCallableClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/Volatile/PreVolatileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HelloArquillian/com/example/hello/WeakReference/WeakReferenceForTestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/EJB/Client1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/EJB/Client2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/EJB/StatelessEJB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ForkJoin/CustomStringRecursiveTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ForkJoin/CustomVoidRecursiveTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ForkJoin/ForkJoin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ForkJoin/Summarization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Greeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Mutex/ReentrantLockSequenceGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Mutex/SemaphoreSequencegenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Mutex/SeqGen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Mutex/SequenceGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Mutex/SynchronizedSequenceGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Phaser/MainThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Phaser/PhaserThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ScheduledThreadPool/Mainthread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ScheduledThreadPool/SomeClassForSchedule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Semaphore/LoginQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/String/SimpleStringClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ThreadLifeCycle/DummyThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/ThreadPool/SomeCallableClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/Volatile/PreVolatile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/hello/WeakReference/WeakReferenceForTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/example/hello/Phaser/PhaserThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/hello/Phaser/PhaserThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/hello/TimerService/ProgramTimerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/hello/TimerService/ProgramTimerService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -419,7 +356,7 @@
       <workItem from="1610722719878" duration="55000" />
       <workItem from="1610881828910" duration="22000" />
       <workItem from="1610882358207" duration="729000" />
-      <workItem from="1610960145310" duration="2864000" />
+      <workItem from="1610960145310" duration="3112000" />
     </task>
     <servers />
   </component>

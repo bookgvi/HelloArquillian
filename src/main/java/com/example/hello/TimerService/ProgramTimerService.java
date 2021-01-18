@@ -13,7 +13,9 @@ public class ProgramTimerService {
     timerService.createTimer(10000, "CreatedTimer");
     ScheduleExpression expression = new ScheduleExpression();
     expression.second("*/1").minute("*").hour("*");
-    timerService.createCalendarTimer(expression, new TimerConfig());
+    TimerConfig timerConfig = new TimerConfig();
+    timerConfig.setInfo("Periodical timer event - every 1 sec");
+    timerService.createCalendarTimer(expression, timerConfig);
   }
 
   @Timeout
