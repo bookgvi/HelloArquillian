@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/hello/TimerService/ProgramTimerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/hello/TimerService/ProgramTimerService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -314,11 +313,11 @@
     <list>
       <item itemvalue="Application.APP" />
       <item itemvalue="Application.Mainthread" />
+      <item itemvalue="Application.main" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SimpleStringClassTest.CompareStrings" />
-      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
-      <item itemvalue="Application.main" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
+      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
     </list>
     <recent_temporary>
       <list>
