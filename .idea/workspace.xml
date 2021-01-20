@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="" />
+    <list default="true" id="cdea24fd-6636-41d5-914b-3735cfec5161" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,10 +81,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.GlassFish Managed: PublishingEscapingTest.getStrArray">
+  <component name="RunManager" selected="Application.MainApp">
     <configuration name="APP" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.hello.ForkJoin.ForkJoin" />
       <module name="HelloArquillian" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.PublishingEscaping.EscapingTHIS.MainApp" />
+      <module name="HelloArquillian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello.PublishingEscaping.EscapingTHIS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,7 +132,7 @@
       <module name="HelloArquillian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.hello.PublishingEscaping.*" />
+          <option name="PATTERN" value="com.example.hello.PublishingEscaping.EscapingTHIS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,28 +166,6 @@
       <option name="PACKAGE_NAME" value="com.example.hello.Mutex" />
       <option name="MAIN_CLASS_NAME" value="com.example.hello.Mutex.SequenceGeneratorTest" />
       <option name="METHOD_NAME" value="testMultiThreadSequenceFill" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GlassFish Managed: SomeClassForScheduleTest.getMessage" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
-      <module name="HelloArquillian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.hello.ScheduledThreadPool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="GlassFish Managed" />
-        </value>
-      </option>
-      <option name="PACKAGE_NAME" value="com.example.hello.ScheduledThreadPool" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.ScheduledThreadPool.SomeClassForScheduleTest" />
-      <option name="METHOD_NAME" value="getMessage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -312,18 +305,18 @@
       <item itemvalue="Application.APP" />
       <item itemvalue="Application.Mainthread" />
       <item itemvalue="Application.main" />
-      <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage" />
+      <item itemvalue="Application.MainApp" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
-      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="Arquillian JUnit.GlassFish Managed: PublishingEscapingTest.getStrArray" />
+      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: PublishingEscapingTest.getStrArray" />
         <item itemvalue="Arquillian JUnit.GlassFish Managed: SequenceGeneratorTest.testMultiThreadSequenceFill" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Mainthread" />
-        <item itemvalue="Arquillian JUnit.GlassFish Managed: SomeClassForScheduleTest.getMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -354,6 +347,7 @@
       <workItem from="1610881828910" duration="22000" />
       <workItem from="1610882358207" duration="729000" />
       <workItem from="1610960145310" duration="3112000" />
+      <workItem from="1611137742464" duration="655000" />
     </task>
     <servers />
   </component>
